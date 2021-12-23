@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+}
+
+button a,
+button a:visited,
+button a:active {
+  text-decoration: none;
+  color: #3c64b1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  background-color: #f3f6fa;
+}
+
+nav .logo {
+  color: #3c64b1;
+}
+
+nav .logo a,
+nav .logo a:visited,
+nav .logo a:active {
+  text-decoration: none;
+  color: #3c64b1;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 4rem;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:active, nav ul li a:visited {
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: #3c64b1;
+}
+
+button.login {
+  background-color: #3c64b1;
+}
+
+button.login a {
+  color: white;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+button.login-active {
+  background-color: #fff;
+  border: 1px solid #3c64b1;
+}
+
+button.login-active a {
+  color: #3c64b1;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.center-container button {
+  background-color: #fff;
+  border: 1px solid #3c64b1;
+  outline: 0;
+  margin-top: 4rem;
+  width: 15rem;
+  padding: 1rem 0;
+  color: #3c64b1;
+  cursor: pointer;
+}
+
+.center-container button:hover {
+  background-color: #3c64b1;
+}
+
+.center-container button:hover a {
+  color: #fff;
+}
+
+.center-container .confirm-button {
+  margin-top: 2rem;
+  margin-left: 32rem;
+}
+
+.center-container .confirm-button a {
+  color: #3c64b1;
+}
+
+.center-container .confirm-button a:hover,
+.center-container .confirm-button a:active:hover,
+.center-container .confirm-button a:visited:hover {
+  color: white;
+}
+
+.center-container button.active {
+  background-color: #3c64b1;
+}
+
+.center-container button.active a {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.center-container .label-1 {
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.center-container .label-3 {
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-left: -41rem;
+}
+
+.center-container .input-section {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+
+.center-container .input-section .label-2 {
+  margin-top: 0.5rem;
+  color: #737b7d;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.center-container .input-section input {
+  margin-top: 0.3rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #3c64b1;
+}
+
+.center-container .input-section input:focus {
+  border: 2px solid #3c64b1;
+}
+
+.center-container .input-section input::placeholder {
+  color: #737b7d;
+  font-weight: 400;
+}
+
+.center-container .input-section input::-webkit-outer-spin-button,
+.center-container .input-section input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.center-container .input-section input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.center-container .input-section .btn {
+  margin: 1rem 0rem;
+}
+
+.center-container table {
+  width: 750px;
+  border-collapse: collapse;
+  margin: 5px auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.center-container th {
+  background: #f3f6fa;
+  font-weight: bold;
+  border: none;
+}
+
+.center-container td,
+.center-container th {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  width: 15rem;
+}
+
+.center-container th {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.center-container td {
+  padding-top: 2rem;
+}
+
+.center-container td input {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+.center-container td input[type="text"]:focus,
+.center-container td input[type="text"]:active {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.center-container td input[type="checkbox"] {
+  height: 1rem;
+  width: 1rem;
+}
+
+.route-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  color: #737b7d;
+}
+
+.route-1 i {
+  margin: 0 0.5rem;
+}
+
+.route-1 .confirm-button {
+  margin-top: 0;
+}
